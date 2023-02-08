@@ -1,2 +1,45 @@
-# react-developer-challenge
-Coding challenges for all inbound ReactJS developers at Tilli
+# Tilli ReactJS Developer Challenge
+
+Thank you for your interest in Tilli! The following coding challenge should take no longer than 2-3 hours. Please feel free to reach out for any clarification on the requirements presented below. If you find you're taking longer than the stated 2-3 hours, you're most likely overcomplicating one of the requirements!
+
+## The challenge
+
+Your task is to create a React app that will show summary statistics for requested stock ticker symbols using the [Alpha Vantage](https://www.alphavantage.co/documentation/) API.
+
+### Getting started
+
+Fork this repository and use that to build your challenge! When you've finished and all of your work is pushed, let us know so we can review. Below are some requirements for building the applications. Keep in mind while reviewing these that the application should be able to handle these requirements for any amount of stock ticker symbols.
+
+### Global application UI state
+
+1. No stocks being tracked
+  - Call to action to add a stock ticker symbol alongside some way for users to input a stock ticker to immediately start tracking
+2. Stocks currently being tracked
+  - Tickers + summary statistics should appear with an input somewhere to allow additional stock tickers to be tracked
+  
+### Ticker summary statistics
+
+For a given stock ticker symbol, the following data should be shown:
+
+- Today's open and close prices in number format (if they exist)
+- The last 30 days of close prices represented in some time-series graph format
+
+### State management
+
+- The React app should be able to persist state between sessions
+- State should only be saved locally in the browser
+
+## Evaluation criteria
+
+- Sensible UI/UX decisions
+- Proper application state management
+- Proper UI state transition
+- Emphasis on *function* over *form*
+- Error management
+- Code hygiene
+- Documentation
+- Secrets management
+
+## Some additional notes
+
+We've designed this challenge with very few constraints on UI/UX to specifically see how you approach these decisions when given a basic data format to represent in a React application. With that being said, using some kind of UI framework is strongly suggested! We also recommend using some kind of boilerplate starting point (such as [`create-react-app`](https://create-react-app.dev/) so that you spend less time configuring your dev environment and more time working on the challenge at hand.

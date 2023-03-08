@@ -1,45 +1,70 @@
-# Tilli ReactJS Developer Challenge
+# Getting Started with Create React App
 
-Thank you for your interest in Tilli! The following coding challenge should take no longer than 2-3 hours. Please feel free to reach out for any clarification on the requirements presented below. If you find you're taking longer than the stated 2-3 hours, you're most likely overcomplicating one of the requirements!
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## The challenge
+## Available Scripts
 
-Your task is to create a React app that will show summary statistics for requested stock ticker symbols using the [Alpha Vantage](https://www.alphavantage.co/documentation/) API.
+In the project directory, you can run:
 
-### Getting started
+### `npm start`
 
-Fork this repository and use that to build your challenge! When you've finished and all of your work is pushed, let us know so we can review. Below are some requirements for building the applications. Keep in mind while reviewing these that the application should be able to handle these requirements for any amount of stock ticker symbols.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### Global application UI state
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-1. No stocks being tracked
-  - Call to action to add a stock ticker symbol alongside some way for users to input a stock ticker to immediately start tracking
-2. Stocks currently being tracked
-  - Tickers + summary statistics should appear with an input somewhere to allow additional stock tickers to be tracked
-  
-### Ticker summary statistics
+### `npm test`
 
-For a given stock ticker symbol, the following data should be shown:
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-- Today's open and close prices in number format (if they exist)
-- The last 30 days of close prices represented in some time-series graph format
+### `npm run build`
 
-### State management
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-- The React app should be able to persist state between sessions
-- State should only be saved locally in the browser
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-## Evaluation criteria
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-- Sensible UI/UX decisions
-- Proper application state management
-- Proper UI state transition
-- Emphasis on *function* over *form*
-- Error management
-- Code hygiene
-- Documentation
-- Secrets management
+### `npm run eject`
 
-## Some additional notes
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-We've designed this challenge with very few constraints on UI/UX to specifically see how you approach these decisions when given a basic data format to represent in a React application. With that being said, using some kind of UI framework is strongly suggested! We also recommend using some kind of boilerplate starting point (such as [`create-react-app`](https://create-react-app.dev/) so that you spend less time configuring your dev environment and more time working on the challenge at hand.
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
